@@ -1,5 +1,4 @@
 import useApi from './useApi'
-import profile from '../store/profile'
 
 export const isAuthenticated = () => {
     return window.localStorage.getItem('api-bearer') != null
@@ -17,7 +16,6 @@ export const requestLogin = (credentials) => {
 }
 
 export const forgetAuthentication = async () => {
-    profile.clearProfile()
     localStorage.removeItem('api-bearer');
 }
 
