@@ -1,0 +1,24 @@
+{
+  "name": "code-assignment",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "sass": "^1.54.5",
+    "vite": "^2.6.4",
+    "@kyvg/vue3-notification": "^2.4.1",
+    "@vueuse/head": "^0.7.9",
+    "axios": "^0.22.0",
+    "bulma": "^0.9.4",
+    "dropzone-vue": "^0.1.11",
+    "vue": "^3.2.16",
+    "vue-router": "^4.0.11",
+    "vue-toastification": "^2.0.0-rc.5"
+  }
+}
