@@ -13,7 +13,7 @@
       @uploaded="uploadedFinished"
     />
 
-    <a class="button is-primary mt-3" @click="upload" v-if="hasSelectedFiles">Ladda upp valda filer</a>
+    <a class="button is-primary mt-3" @click="upload" v-if="hasSelectedFiles">Upload selected files</a>
   </div>
 </template>
 
